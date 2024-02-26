@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 const TravailSalle = () => {
   return (
     <main className={`${inter.className}`}>
-      <h1 className="font-bold text-3xl">Qui travaille aujourd'hui ?</h1>
+      <h1 className="font-bold text-4xl w-1/2">Qui travaille aujourd'hui ?</h1>
       <Header />
       <SpaceCheckbox />
-      <Button>Suivant</Button>
+      <Button title="Suivant" />
     </main>
   );
 };
