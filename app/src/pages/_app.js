@@ -1,5 +1,13 @@
+import Date from "@/components/Date";
 import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
+const App = ({ Component, pageProps }) => {
+  return (
+    <div className="p-4">
+      <Date />
+      <Component {...pageProps} />
+    </div>
+  );
+};
+
+export default App;
