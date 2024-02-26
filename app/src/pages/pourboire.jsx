@@ -28,7 +28,7 @@ const pourboire = () => {
           />
         </div>
 
-        <div className="flex space-x-5 mt-5 items-center justify-center">
+        <div className="flex space-x-10 mt-5 items-center justify-center">
           <button className="border border-orange rounded-full px-6 py-1 text-orange text-lg">
             0.50
           </button>
