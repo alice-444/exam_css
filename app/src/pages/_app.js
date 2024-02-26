@@ -1,5 +1,6 @@
-import Date from "@/components/Date";
 import "@/styles/globals.css";
+import Date from "@/components/Date.jsx";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const App = ({ Component, pageProps }) => {
   return (
