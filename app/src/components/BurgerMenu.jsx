@@ -41,7 +41,7 @@ const BurgerMenu = () => {
         </button>
 
         {isOpen && (
-          <div className="absolute top-16 right-0 z-10 bg-white shadow-md py-4 px-2 rounded-md w-3/4">
+          <div className="absolute top-16 right-0 z-10 bg-white shadow-md py-4 px-2 rounded-md w-3/4 border-l border-gray overflow-y-auto">
             <ul className="text-gray-600 text-lg font-semibold">
               <li className="mb-2">
                 <a href="#" className="hover:text-gray-800">
@@ -87,7 +87,7 @@ const BurgerMenu = () => {
               </li>
             </ul>
 
-            <div>
+            <div className="mt-auto">
               <ul className="text-lg font-semibold">
                 <li className="mb-2">
                   <a>
